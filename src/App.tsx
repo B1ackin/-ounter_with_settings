@@ -24,7 +24,7 @@ function App() {
     }
 
     const setCounterText = () => {
-        setCounter('Enter press set')
+        setCounter(<span className={"error2"}>Enter values and press 'set'</span>)
     }
 
     const setCountValue = () => {

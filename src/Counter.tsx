@@ -38,13 +38,13 @@ export const Counter = (props: CounterType) => {
         <div className={"App-counter"}>
             <div className={"tablo"}>
                 <div className={"tablo-items"}>
-                    <span>Max value:</span>
+                    <span className={"tablo-name"}>max value:</span>
 
                     <input className={MaxValueInput} type={'number'} value={props.maxCounterValue} onChange={getMaxValueInput}/>
 
                 </div>
                 <div className={"tablo-items"}>
-                    <span>Start value:</span>
+                    <span className={"tablo-name"}>start value:</span>
 
                     <input className={StartValueInput} type={'number'} value={props.startCounterValue} onChange={getStartValueInput}/>
 
